@@ -58,7 +58,7 @@ Global functions:
 /*global testLoad, ActiveXObject */
 var
   //    the URL of the ArcGIS API for JavaScript, you can change it to point to your own API.
-  apiUrl = 'https://js.arcgis.com/3.25'
+  apiUrl = 'https://js.arcgis.com/3.25';
 
   //weinreUrl: String
   //    weinre is a tool which can help debug the app on mobile devices.
