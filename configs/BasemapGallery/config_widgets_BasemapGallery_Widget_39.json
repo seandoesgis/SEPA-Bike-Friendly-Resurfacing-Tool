@@ -3,7 +3,7 @@
     "mode": 2,
     "basemaps": [
       {
-        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl1537887540413.png",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl1537900556657.png",
         "title": "Imagery with Labels",
         "layers": [
           {
@@ -268,7 +268,7 @@
         }
       },
       {
-        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl1537887540414.png",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl1537900556659.png",
         "title": "Light Gray Canvas",
         "layers": [
           {

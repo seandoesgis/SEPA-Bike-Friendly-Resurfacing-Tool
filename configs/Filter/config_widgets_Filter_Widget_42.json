@@ -5,9 +5,9 @@
   "allowCustom": false,
   "filters": [
     {
-      "layerId": "BSTRESS_SuburbanLTS123_9836_0",
-      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
-      "name": "Suburban LTS 3 Connections Top 10",
+      "layerId": "BSTRESS_PhilaLTS3_1534_0",
+      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_PhilaLTS3/MapServer/0",
+      "name": "Top 10 DRAFT Philadelphia LTS 3 Connections",
       "filter": {
         "logicalOperator": "AND",
         "parts": [
@@ -65,9 +65,9 @@
       }
     },
     {
-      "layerId": "BSTRESS_SuburbanLTS123_9836_0",
-      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
-      "name": "Suburban LTS 3 Connections Top 20",
+      "layerId": "BSTRESS_PhilaLTS3_1534_0",
+      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_PhilaLTS3/MapServer/0",
+      "name": "Top 20 DRAFT Philadelphia LTS 3 Connections",
       "filter": {
         "logicalOperator": "AND",
         "parts": [
@@ -125,9 +125,9 @@
       }
     },
     {
-      "layerId": "BSTRESS_SuburbanLTS123_9836_0",
-      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
-      "name": "Suburban LTS 3 Connections Top 30",
+      "layerId": "BSTRESS_PhilaLTS3_1534_0",
+      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_PhilaLTS3/MapServer/0",
+      "name": "Top 30 DRAFT Philadelphia LTS 3 Connections",
       "filter": {
         "logicalOperator": "AND",
         "parts": [
@@ -185,9 +185,9 @@
       }
     },
     {
-      "layerId": "BSTRESS_SuburbanLTS123_9836_0",
-      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
-      "name": "Suburban LTS 3 Connections Top 40",
+      "layerId": "BSTRESS_PhilaLTS3_1534_0",
+      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_PhilaLTS3/MapServer/0",
+      "name": "Top 40 DRAFT Philadelphia LTS 3 Connections",
       "filter": {
         "logicalOperator": "AND",
         "parts": [
@@ -245,9 +245,9 @@
       }
     },
     {
-      "layerId": "BSTRESS_SuburbanLTS123_9836_0",
-      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
-      "name": "Suburban LTS 3 Connections Top 50",
+      "layerId": "BSTRESS_PhilaLTS3_1534_0",
+      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_PhilaLTS3/MapServer/0",
+      "name": "Top 50 DRAFT Philadelphia LTS 3 Connections",
       "filter": {
         "logicalOperator": "AND",
         "parts": [

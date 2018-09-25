@@ -167,12 +167,9 @@
         },
         "placeholderIndex": 2,
         "id": "_31",
-        "name": "Filter",
-        "label": "DRAFT Philadelphia LTS 3 Connection Filter",
         "version": "2.9",
         "closeable": true,
-        "uri": "widgets/Filter/Widget",
-        "config": "configs/Filter/config__31.json"
+        "uri": ""
       },
       {
         "position": {
@@ -182,12 +179,9 @@
         },
         "placeholderIndex": 3,
         "id": "_32",
-        "name": "Filter",
-        "label": "Suburban LTS 3 Connection Filter",
         "version": "2.9",
         "closeable": true,
-        "uri": "widgets/Filter/Widget",
-        "config": "configs/Filter/config__32.json"
+        "uri": ""
       },
       {
         "position": {
@@ -197,11 +191,9 @@
         },
         "placeholderIndex": 4,
         "id": "_33",
-        "name": "AttributeTable",
         "version": "2.9",
         "closeable": true,
-        "uri": "widgets/AttributeTable/Widget",
-        "config": "configs/AttributeTable/config__33.json"
+        "uri": ""
       },
       {
         "uri": "widgets/ExtentNavigate/Widget",
@@ -245,7 +237,17 @@
       "bottom": 0
     },
     "itemId": "c94778d9518d405987a3faa4530b6ca8",
-    "mapOptions": {},
+    "mapOptions": {
+      "extent": {
+        "xmin": -8525901.52834301,
+        "ymin": 4810401.53135896,
+        "xmax": -8294908.828865119,
+        "ymax": 4960218.106797962,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
     "id": "map",
     "portalUrl": "https://dvrpcgis.maps.arcgis.com",
     "mapRefreshInterval": {
@@ -308,6 +310,35 @@
         "config": "configs/Print/config_widgets_Print_Widget_37.json",
         "index": 7,
         "id": "widgets_Print_Widget_37"
+      },
+      {
+        "name": "AttributeTable",
+        "version": "2.9",
+        "uri": "widgets/AttributeTable/Widget",
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_40.json",
+        "index": 8,
+        "id": "widgets_AttributeTable_Widget_40",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "Filter",
+        "label": "Suburban LTS 3 Connection Filter",
+        "version": "2.9",
+        "uri": "widgets/Filter/Widget",
+        "config": "configs/Filter/config_widgets_Filter_Widget_41.json",
+        "index": 9,
+        "id": "widgets_Filter_Widget_41"
+      },
+      {
+        "name": "Filter",
+        "label": "DRAFT Philadelphia LTS 3 Connection Filter",
+        "version": "2.9",
+        "uri": "widgets/Filter/Widget",
+        "config": "configs/Filter/config_widgets_Filter_Widget_42.json",
+        "index": 11,
+        "id": "widgets_Filter_Widget_42"
       }
     ],
     "groups": []
@@ -490,7 +521,7 @@
   "isWebTier": false,
   "httpProxy": {
     "useProxy": true,
-    "url": "proxy.js"
+    "url": "https://slawrence.dvrpc.org:3344/proxy.js"
   },
   "dataSource": {
     "dataSources": {},
