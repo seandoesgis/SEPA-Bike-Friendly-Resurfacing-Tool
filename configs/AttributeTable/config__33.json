@@ -1,0 +1,1108 @@
+{
+  "layerInfos": [
+    {
+      "name": "Regional 5 Year Resurfacing Plan",
+      "id": "Regional_5_Year_Resurfacing_Plan_4129",
+      "layer": {
+        "url": "https://services1.arcgis.com/LWtWv6q6BJyKidj8/arcgis/rest/services/Regional_5_Year_Resurfacing_Plan/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "ID",
+            "alias": "ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "YEAR",
+            "alias": "YEAR",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SR",
+            "alias": "SR",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ROAD",
+            "alias": "ROAD",
+            "show": true
+          },
+          {
+            "name": "INT_FROM",
+            "alias": "INT_FROM",
+            "show": true
+          },
+          {
+            "name": "SEG_FROM",
+            "alias": "SEG_FROM",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "OFF_FROM",
+            "alias": "OFF_FROM",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "INT_TO",
+            "alias": "INT_TO",
+            "show": true
+          },
+          {
+            "name": "SEG_TO",
+            "alias": "SEG_TO",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "OFF_TO",
+            "alias": "OFF_TO",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "MUN_1",
+            "alias": "MUN_1",
+            "show": false
+          },
+          {
+            "name": "MUN_2",
+            "alias": "MUN_2",
+            "show": false
+          },
+          {
+            "name": "MUN_3",
+            "alias": "MUN_3",
+            "show": false
+          },
+          {
+            "name": "LEGDIST_1",
+            "alias": "LEGDIST_1",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LEGDIST_2",
+            "alias": "LEGDIST_2",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LEGDIST_3",
+            "alias": "LEGDIST_3",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SENDIST_1",
+            "alias": "SENDIST_1",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SENDIST_2",
+            "alias": "SENDIST_2",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CONGDIST",
+            "alias": "CONGDIST",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Planned",
+            "alias": "Planned",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": false
+          },
+          {
+            "name": "CNT_CODE",
+            "alias": "CNT_CODE",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NLF_ID",
+            "alias": "NLF_ID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NLF_B",
+            "alias": "NLF_B",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NLF_E",
+            "alias": "NLF_E",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Priority",
+            "alias": "Priority",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NOTES",
+            "alias": "Notes",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "YEAR",
+      "isDescending": false
+    },
+    {
+      "name": "Regional Priorities (Suburban)",
+      "id": "BSTRESS_RegPrioritiesSuburban_5292_0",
+      "layer": {
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_RegPrioritiesSuburban/MapServer/0",
+        "fields": [
+          {
+            "name": "SHAPE",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "LINK",
+            "alias": "Link",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "COUNT",
+            "alias": "Total",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LTS",
+            "alias": "LTS",
+            "show": true
+          },
+          {
+            "name": "LINKLTS",
+            "alias": "Link LTS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CONNECTED_",
+            "alias": "Connected Islands",
+            "show": true
+          },
+          {
+            "name": "NUM_ISLAND",
+            "alias": "Number of Islands Connected",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SUM_ISLAND",
+            "alias": "Sum Length of Islands",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NUMLANES",
+            "alias": "Number of Lanes",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SPEED",
+            "alias": "Speed",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BIKE_TEXT",
+            "alias": "Bike Facility",
+            "show": true
+          },
+          {
+            "name": "COUNTY",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "SHAPE",
+      "isDescending": false
+    },
+    {
+      "name": "Suburban LTS 3 Connections",
+      "id": "BSTRESS_SuburbanLTS123_9836_0",
+      "layer": {
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
+        "fields": [
+          {
+            "name": "SHAPE",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "EDGE",
+            "alias": "Link",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOTAL",
+            "alias": "Total",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "LTS",
+            "alias": "LTS",
+            "show": true
+          },
+          {
+            "name": "LINKLTS",
+            "alias": "Link LTS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NUMLANES",
+            "alias": "Number of Lanes",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SPEEDTOUSE",
+            "alias": "Speed",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "BIKE_TEXT",
+            "alias": "Bike Facility",
+            "show": true
+          },
+          {
+            "name": "COUNTIES",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "TOP10PERCE",
+            "alias": "Top 10 Percent",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOP20PERCE",
+            "alias": "Top 20 Percent",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOP30PERCE",
+            "alias": "Top 30 Percent",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOP40PERCE",
+            "alias": "Top 40 Percent",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOP50PERCE",
+            "alias": "Top 50 Percent",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "SHAPE",
+      "isDescending": false
+    },
+    {
+      "name": "Suburban Connectivity Analysis",
+      "id": "BSTRESS_SuburbanShortestPath_5965_0",
+      "layer": {
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanShortestPath/MapServer/0",
+        "fields": [
+          {
+            "name": "SHAPE",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "EDGE",
+            "alias": "Link",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOTAL",
+            "alias": "Total",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "LTS",
+            "alias": "LTS",
+            "show": true
+          },
+          {
+            "name": "LINKLTS",
+            "alias": "Link LTS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "NUMLANES",
+            "alias": "Number of Lanes",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SPEEDTOUSE",
+            "alias": "Speed",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "BIKE_TEXT",
+            "alias": "Bicycle Facility",
+            "show": true
+          },
+          {
+            "name": "LENGTH_MI",
+            "alias": "Length (mi)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LENGTH",
+            "alias": "Length (m)",
+            "show": true
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "SHAPE",
+      "isDescending": false
+    },
+    {
+      "name": "DRAFT Regional Priorities (Philadelphia)",
+      "id": "BSTRESS_RegionalPrioritiesPhila_9609_0",
+      "layer": {
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_RegionalPrioritiesPhila/MapServer/0",
+        "fields": [
+          {
+            "name": "SHAPE",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "LINK",
+            "alias": "Link",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "COUNT",
+            "alias": "Total",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "LTS",
+            "alias": "LTS",
+            "show": true
+          },
+          {
+            "name": "LINKLTS",
+            "alias": "Link LTS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "CONNECTED_",
+            "alias": "Connected Islands",
+            "show": true
+          },
+          {
+            "name": "NUM_ISLAND",
+            "alias": "Number of Islands Connected",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SUM_ISLAND",
+            "alias": "Sum Length of Islands",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "NUMLANES",
+            "alias": "Number of Lanes",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SPEED",
+            "alias": "Speed",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "BIKE_TEXT",
+            "alias": "Bike Facility",
+            "show": true
+          },
+          {
+            "name": "COUNTY",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "SHAPE",
+      "isDescending": false
+    },
+    {
+      "name": "DRAFT Philadelphia LTS 3 Connections",
+      "id": "BSTRESS_PhilaLTS3_1534_0",
+      "layer": {
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_PhilaLTS3/MapServer/0",
+        "fields": [
+          {
+            "name": "SHAPE",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "EDGE",
+            "alias": "Link",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOTAL",
+            "alias": "Total",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "LTS",
+            "alias": "LTS",
+            "show": true
+          },
+          {
+            "name": "LINKLTS",
+            "alias": "Link LTS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "NUMLANES",
+            "alias": "Number of Lanes",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SPEEDTOUSE",
+            "alias": "Speed",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "BIKE_TEXT",
+            "alias": "Bicycle Facility",
+            "show": true
+          },
+          {
+            "name": "COUNTIES",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "TOP10PERCE",
+            "alias": "Top 10 Percent",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOP20PERCE",
+            "alias": "Top 20 Percent",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOP30PERCE",
+            "alias": "Top 30 Percent",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOP40PERCE",
+            "alias": "Top 40 Percent",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOP50PERCE",
+            "alias": "Top 50 Percent",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "SHAPE",
+      "isDescending": false
+    },
+    {
+      "name": "DRAFT Philadelphia Connectivity Analysis",
+      "id": "BSTRESS_PhilaShortestPath_9898_0",
+      "layer": {
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_PhilaShortestPath/MapServer/0",
+        "fields": [
+          {
+            "name": "SHAPE",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "EDGE",
+            "alias": "Link",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TOTAL",
+            "alias": "Total",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "LTS",
+            "alias": "LTS",
+            "show": true
+          },
+          {
+            "name": "LINKLTS",
+            "alias": "Link LTS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "NUMLANES",
+            "alias": "Number of Lanes",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SPEEDTOUSE",
+            "alias": "Speed",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "BIKE_TEXT",
+            "alias": "Bicycle Facility",
+            "show": true
+          },
+          {
+            "name": "LENGTH_MI",
+            "alias": "Length (mi)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LENGTH",
+            "alias": "Length (m)",
+            "show": true
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "SHAPE",
+      "isDescending": false
+    },
+    {
+      "name": "LTS 1&2 Islands",
+      "id": "BSTRESS_LTS12Islands_9884_0",
+      "layer": {
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_LTS12Islands/MapServer/0",
+        "fields": [
+          {
+            "name": "SHAPE",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "MIXID",
+            "alias": "Link",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "COST",
+            "alias": "Cost",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "STRONG",
+            "alias": "Island ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "SHAPE",
+      "isDescending": false
+    },
+    {
+      "name": "Existing Condition LTS",
+      "id": "AssignedLTS_8172_0",
+      "layer": {
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/AssignedLTS/MapServer/0",
+        "fields": [
+          {
+            "name": "NUMLANES",
+            "alias": "Total Number of Lanes",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "BIKE_FAC",
+            "alias": "BIKE_FAC",
+            "show": true
+          },
+          {
+            "name": "BIKE_FAC_1",
+            "alias": "Bicycle Facility",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SPEEDTOUSE",
+            "alias": "Effective Speed",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "ISONEWAY_2",
+            "alias": "One Way Street",
+            "show": true
+          },
+          {
+            "name": "LTS",
+            "alias": "LTS",
+            "show": true
+          },
+          {
+            "name": "LINKLTS",
+            "alias": "Assigned LTS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "NUMLANES",
+      "isDescending": false
+    },
+    {
+      "name": "Facility",
+      "id": "AssignedLTS_8172_1",
+      "layer": {
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/AssignedLTS/MapServer/1"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true
+}
