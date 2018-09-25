@@ -490,7 +490,7 @@
   "isWebTier": false,
   "httpProxy": {
     "useProxy": true,
-    "url": "https://slawrence.dvrpc.org:3344/proxy.js"
+    "url": "proxy.js"
   },
   "dataSource": {
     "dataSources": {},
