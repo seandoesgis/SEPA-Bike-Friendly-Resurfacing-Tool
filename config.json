@@ -313,7 +313,7 @@
       },
       {
         "name": "AttributeTable",
-        "version": "2.6",
+        "version": "2.9",
         "uri": "widgets/AttributeTable/Widget",
         "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_40.json",
         "index": 8,
@@ -321,24 +321,6 @@
         "position": {
           "relativeTo": "map"
         }
-      },
-      {
-        "name": "Filter",
-        "label": "Suburban LTS 3 Connection Filter",
-        "version": "2.6",
-        "uri": "widgets/Filter/Widget",
-        "config": "configs/Filter/config_widgets_Filter_Widget_41.json",
-        "index": 9,
-        "id": "widgets_Filter_Widget_41"
-      },
-      {
-        "name": "Filter",
-        "label": "DRAFT Philadelphia LTS 3 Connection Filter",
-        "version": "2.6",
-        "uri": "widgets/Filter/Widget",
-        "config": "configs/Filter/config_widgets_Filter_Widget_42.json",
-        "index": 11,
-        "id": "widgets_Filter_Widget_42"
       }
     ],
     "groups": []

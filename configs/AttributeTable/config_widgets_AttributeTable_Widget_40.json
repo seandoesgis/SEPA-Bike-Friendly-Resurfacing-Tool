@@ -1,10 +1,183 @@
 {
   "layerInfos": [
     {
-      "name": "Regional 5 Year Resurfacing Plan",
-      "id": "Regional_5_Year_Resurfacing_Plan_4129",
+      "name": "PennDOT 5 Year Resurfacing Plan (2020-2024)",
+      "id": "PennDOT_5_Year_Resurfacing_Plan_1310",
       "layer": {
-        "url": "https://services1.arcgis.com/LWtWv6q6BJyKidj8/arcgis/rest/services/Regional_5_Year_Resurfacing_Plan/FeatureServer/0",
+        "url": "https://services1.arcgis.com/LWtWv6q6BJyKidj8/arcgis/rest/services/PennDOT_5_Year_Resurfacing_Plan/FeatureServer/0",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": false,
+            "name": "gisid",
+            "alias": "gisid"
+          },
+          {
+            "show": false,
+            "name": "GISID_1",
+            "alias": "GISID_1"
+          },
+          {
+            "show": true,
+            "name": "CALENDAR_Y",
+            "alias": "Year"
+          },
+          {
+            "show": false,
+            "name": "STATE_ROUT",
+            "alias": "STATE_ROUT"
+          },
+          {
+            "show": true,
+            "name": "LOC_ROAD_N",
+            "alias": "Name"
+          },
+          {
+            "show": true,
+            "name": "INTERSECTI",
+            "alias": "From"
+          },
+          {
+            "show": false,
+            "name": "SEGMENT_FR",
+            "alias": "SEGMENT_FR"
+          },
+          {
+            "show": false,
+            "name": "OFFSET_FRO",
+            "alias": "OFFSET_FRO"
+          },
+          {
+            "show": true,
+            "name": "INTERSEC_1",
+            "alias": "To"
+          },
+          {
+            "show": false,
+            "name": "SEGMENT_TO",
+            "alias": "SEGMENT_TO"
+          },
+          {
+            "show": false,
+            "name": "OFFSET_TO",
+            "alias": "OFFSET_TO"
+          },
+          {
+            "show": false,
+            "name": "MUNICIPALI",
+            "alias": "MUNICIPALI"
+          },
+          {
+            "show": false,
+            "name": "MUNICIPA_1",
+            "alias": "MUNICIPA_1"
+          },
+          {
+            "show": false,
+            "name": "MUNICIPA_2",
+            "alias": "MUNICIPA_2"
+          },
+          {
+            "show": false,
+            "name": "LEG_DIST_1",
+            "alias": "LEG_DIST_1"
+          },
+          {
+            "show": false,
+            "name": "LEG_DIST_2",
+            "alias": "LEG_DIST_2"
+          },
+          {
+            "show": false,
+            "name": "LEG_DIST_3",
+            "alias": "LEG_DIST_3"
+          },
+          {
+            "show": false,
+            "name": "SENATORIAL",
+            "alias": "SENATORIAL"
+          },
+          {
+            "show": false,
+            "name": "SENATORI_1",
+            "alias": "SENATORI_1"
+          },
+          {
+            "show": false,
+            "name": "CONG_DISTR",
+            "alias": "CONG_DISTR"
+          },
+          {
+            "show": false,
+            "name": "PLANNED",
+            "alias": "PLANNED"
+          },
+          {
+            "show": false,
+            "name": "COUNTY",
+            "alias": "COUNTY"
+          },
+          {
+            "show": false,
+            "name": "CNT_CODE",
+            "alias": "CNT_CODE"
+          },
+          {
+            "show": false,
+            "name": "NLF_ID",
+            "alias": "NLF_ID"
+          },
+          {
+            "show": false,
+            "name": "NLF_B",
+            "alias": "NLF_B"
+          },
+          {
+            "show": false,
+            "name": "NLF_E",
+            "alias": "NLF_E"
+          },
+          {
+            "show": false,
+            "name": "SHORTCODE",
+            "alias": "SHORTCODE"
+          },
+          {
+            "show": false,
+            "name": "LONGCODE",
+            "alias": "LONGCODE"
+          },
+          {
+            "show": false,
+            "name": "CHANGECODE",
+            "alias": "CHANGECODE"
+          },
+          {
+            "show": false,
+            "name": "SOURCE",
+            "alias": "SOURCE"
+          },
+          {
+            "show": false,
+            "name": "Shape__Length",
+            "alias": "Shape__Length"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "CALENDAR_Y",
+      "isDescending": false
+    },
+    {
+      "name": "Montgomery Co Proposed Bike Network",
+      "id": "MontgomeryCoBikeLanes_9725",
+      "layer": {
+        "url": "https://services1.arcgis.com/LWtWv6q6BJyKidj8/arcgis/rest/services/MontgomeryCoBikeLanes/FeatureServer/0",
         "fields": [
           {
             "name": "FID",
@@ -12,8 +185,8 @@
             "show": false
           },
           {
-            "name": "ID",
-            "alias": "ID",
+            "name": "OBJECTID_1",
+            "alias": "OBJECTID_1",
             "show": false,
             "format": {
               "places": 0,
@@ -21,8 +194,83 @@
             }
           },
           {
-            "name": "YEAR",
-            "alias": "YEAR",
+            "name": "Join_Count",
+            "alias": "Join_Count",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TARGET_FID",
+            "alias": "TARGET_FID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Join_Cou_1",
+            "alias": "Join_Cou_1",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TARGET_F_1",
+            "alias": "TARGET_F_1",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FCC",
+            "alias": "FCC",
+            "show": true
+          },
+          {
+            "name": "MUNIC_L",
+            "alias": "MUNIC_L",
+            "show": true
+          },
+          {
+            "name": "MUNIC_R",
+            "alias": "MUNIC_R",
+            "show": true
+          },
+          {
+            "name": "FULLNAME",
+            "alias": "FULLNAME",
+            "show": true
+          },
+          {
+            "name": "OWNER",
+            "alias": "OWNER",
+            "show": true
+          },
+          {
+            "name": "CONDITION",
+            "alias": "CONDITION",
+            "show": true
+          },
+          {
+            "name": "SHAPE_Leng",
+            "alias": "SHAPE_Leng",
             "show": true,
             "format": {
               "places": 2,
@@ -30,1066 +278,784 @@
             }
           },
           {
-            "name": "SR",
-            "alias": "SR",
-            "show": false,
-            "format": {
-              "places": 0,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "ROAD",
-            "alias": "ROAD",
+            "name": "Proposed20",
+            "alias": "Proposed20",
             "show": true
           },
           {
-            "name": "INT_FROM",
-            "alias": "INT_FROM",
+            "name": "DYNAMAP_ID",
+            "alias": "DYNAMAP_ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "L_F_ADD",
+            "alias": "L_F_ADD",
             "show": true
           },
           {
-            "name": "SEG_FROM",
-            "alias": "SEG_FROM",
-            "show": false,
-            "format": {
-              "places": 0,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "OFF_FROM",
-            "alias": "OFF_FROM",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "INT_TO",
-            "alias": "INT_TO",
+            "name": "L_T_ADD",
+            "alias": "L_T_ADD",
             "show": true
           },
           {
-            "name": "SEG_TO",
-            "alias": "SEG_TO",
-            "show": false,
+            "name": "R_F_ADD",
+            "alias": "R_F_ADD",
+            "show": true
+          },
+          {
+            "name": "R_T_ADD",
+            "alias": "R_T_ADD",
+            "show": true
+          },
+          {
+            "name": "PREFIX",
+            "alias": "PREFIX",
+            "show": true
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true
+          },
+          {
+            "name": "TYPE",
+            "alias": "TYPE",
+            "show": true
+          },
+          {
+            "name": "SUFFIX",
+            "alias": "SUFFIX",
+            "show": true
+          },
+          {
+            "name": "FCC_1",
+            "alias": "FCC_1",
+            "show": true
+          },
+          {
+            "name": "POSTAL_L",
+            "alias": "POSTAL_L",
+            "show": true
+          },
+          {
+            "name": "POSTAL_R",
+            "alias": "POSTAL_R",
+            "show": true
+          },
+          {
+            "name": "MUNIC_L_1",
+            "alias": "MUNIC_L_1",
+            "show": true
+          },
+          {
+            "name": "MUNIC_R_1",
+            "alias": "MUNIC_R_1",
+            "show": true
+          },
+          {
+            "name": "ADDRESS_TY",
+            "alias": "ADDRESS_TY",
+            "show": true,
             "format": {
               "places": 0,
               "digitSeparator": true
             }
           },
           {
-            "name": "OFF_TO",
-            "alias": "OFF_TO",
-            "show": false,
+            "name": "REMARKS",
+            "alias": "REMARKS",
+            "show": true
+          },
+          {
+            "name": "ESZ_L",
+            "alias": "ESZ_L",
+            "show": true
+          },
+          {
+            "name": "ESZ_R",
+            "alias": "ESZ_R",
+            "show": true
+          },
+          {
+            "name": "AREA_L",
+            "alias": "AREA_L",
+            "show": true
+          },
+          {
+            "name": "AREA_R",
+            "alias": "AREA_R",
+            "show": true
+          },
+          {
+            "name": "SHIELD",
+            "alias": "SHIELD",
+            "show": true
+          },
+          {
+            "name": "HWY_NUM",
+            "alias": "HWY_NUM",
+            "show": true
+          },
+          {
+            "name": "SPEED",
+            "alias": "SPEED",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ONE_WAY",
+            "alias": "ONE_WAY",
+            "show": true
+          },
+          {
+            "name": "F_ZLEV",
+            "alias": "F_ZLEV",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "T_ZLEV",
+            "alias": "T_ZLEV",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FT_COST",
+            "alias": "FT_COST",
+            "show": true,
             "format": {
               "places": 2,
               "digitSeparator": true
             }
           },
           {
-            "name": "MUN_1",
-            "alias": "MUN_1",
-            "show": false
-          },
-          {
-            "name": "MUN_2",
-            "alias": "MUN_2",
-            "show": false
-          },
-          {
-            "name": "MUN_3",
-            "alias": "MUN_3",
-            "show": false
-          },
-          {
-            "name": "LEGDIST_1",
-            "alias": "LEGDIST_1",
-            "show": false,
+            "name": "TF_COST",
+            "alias": "TF_COST",
+            "show": true,
             "format": {
               "places": 2,
               "digitSeparator": true
             }
           },
           {
-            "name": "LEGDIST_2",
-            "alias": "LEGDIST_2",
-            "show": false,
+            "name": "ALT1_PREFI",
+            "alias": "ALT1_PREFI",
+            "show": true
+          },
+          {
+            "name": "ALT1_NAME",
+            "alias": "ALT1_NAME",
+            "show": true
+          },
+          {
+            "name": "ALT1_TYPE",
+            "alias": "ALT1_TYPE",
+            "show": true
+          },
+          {
+            "name": "ALT1_SUFFI",
+            "alias": "ALT1_SUFFI",
+            "show": true
+          },
+          {
+            "name": "ALT2_PREFI",
+            "alias": "ALT2_PREFI",
+            "show": true
+          },
+          {
+            "name": "ALT2_NAME",
+            "alias": "ALT2_NAME",
+            "show": true
+          },
+          {
+            "name": "ALT2_TYPE",
+            "alias": "ALT2_TYPE",
+            "show": true
+          },
+          {
+            "name": "ALT2_SUFFI",
+            "alias": "ALT2_SUFFI",
+            "show": true
+          },
+          {
+            "name": "ALT3_PREFI",
+            "alias": "ALT3_PREFI",
+            "show": true
+          },
+          {
+            "name": "ALT3_NAME",
+            "alias": "ALT3_NAME",
+            "show": true
+          },
+          {
+            "name": "ALT3_TYPE",
+            "alias": "ALT3_TYPE",
+            "show": true
+          },
+          {
+            "name": "ALT3_SUFFI",
+            "alias": "ALT3_SUFFI",
+            "show": true
+          },
+          {
+            "name": "ALT4_PREFI",
+            "alias": "ALT4_PREFI",
+            "show": true
+          },
+          {
+            "name": "ALT4_NAME",
+            "alias": "ALT4_NAME",
+            "show": true
+          },
+          {
+            "name": "ALT4_TYPE",
+            "alias": "ALT4_TYPE",
+            "show": true
+          },
+          {
+            "name": "ALT4_SUFFI",
+            "alias": "ALT4_SUFFI",
+            "show": true
+          },
+          {
+            "name": "ALT5_PREFI",
+            "alias": "ALT5_PREFI",
+            "show": true
+          },
+          {
+            "name": "ALT5_NAME",
+            "alias": "ALT5_NAME",
+            "show": true
+          },
+          {
+            "name": "ALT5_TYPE",
+            "alias": "ALT5_TYPE",
+            "show": true
+          },
+          {
+            "name": "ALT5_SUFFI",
+            "alias": "ALT5_SUFFI",
+            "show": true
+          },
+          {
+            "name": "STATE00_L",
+            "alias": "STATE00_L",
+            "show": true
+          },
+          {
+            "name": "STATE00_R",
+            "alias": "STATE00_R",
+            "show": true
+          },
+          {
+            "name": "COUNTY00_L",
+            "alias": "COUNTY00_L",
+            "show": true
+          },
+          {
+            "name": "COUNTY00_R",
+            "alias": "COUNTY00_R",
+            "show": true
+          },
+          {
+            "name": "MCD00_L",
+            "alias": "MCD00_L",
+            "show": true
+          },
+          {
+            "name": "MCD00_R",
+            "alias": "MCD00_R",
+            "show": true
+          },
+          {
+            "name": "PLACE00_L",
+            "alias": "PLACE00_L",
+            "show": true
+          },
+          {
+            "name": "PLACE00_R",
+            "alias": "PLACE00_R",
+            "show": true
+          },
+          {
+            "name": "NEW_STREET",
+            "alias": "NEW_STREET",
+            "show": true,
             "format": {
               "places": 0,
               "digitSeparator": true
             }
           },
           {
-            "name": "LEGDIST_3",
-            "alias": "LEGDIST_3",
-            "show": false,
+            "name": "NEW_STRE_1",
+            "alias": "NEW_STRE_1",
+            "show": true,
             "format": {
               "places": 0,
               "digitSeparator": true
             }
           },
           {
-            "name": "SENDIST_1",
-            "alias": "SENDIST_1",
-            "show": false,
+            "name": "FULLNAME_1",
+            "alias": "FULLNAME_1",
+            "show": true
+          },
+          {
+            "name": "OWNER_1",
+            "alias": "OWNER_1",
+            "show": true
+          },
+          {
+            "name": "CLASS_1",
+            "alias": "CLASS_1",
+            "show": true
+          },
+          {
+            "name": "OVERLAP",
+            "alias": "OVERLAP",
+            "show": true
+          },
+          {
+            "name": "RC_PRIORIT",
+            "alias": "RC_PRIORIT",
+            "show": true
+          },
+          {
+            "name": "created_us",
+            "alias": "created_us",
+            "show": true
+          },
+          {
+            "name": "created_da",
+            "alias": "created_da",
+            "show": true,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "last_edite",
+            "alias": "last_edite",
+            "show": true
+          },
+          {
+            "name": "last_edi_1",
+            "alias": "last_edi_1",
+            "show": true,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "Scenic",
+            "alias": "Scenic",
+            "show": true,
             "format": {
               "places": 0,
               "digitSeparator": true
             }
           },
           {
-            "name": "SENDIST_2",
-            "alias": "SENDIST_2",
-            "show": false,
+            "name": "Id",
+            "alias": "Id",
+            "show": true,
             "format": {
               "places": 0,
               "digitSeparator": true
             }
           },
           {
-            "name": "CONGDIST",
-            "alias": "CONGDIST",
-            "show": false,
-            "format": {
-              "places": 0,
-              "digitSeparator": true
-            }
+            "name": "FULLNAME_2",
+            "alias": "FULLNAME_2",
+            "show": true
           },
           {
-            "name": "Planned",
-            "alias": "Planned",
-            "show": false,
+            "name": "Character",
+            "alias": "Character",
+            "show": true
+          },
+          {
+            "name": "Shape_Le_1",
+            "alias": "Shape_Le_1",
+            "show": true,
             "format": {
               "places": 2,
               "digitSeparator": true
             }
           },
           {
-            "name": "County",
-            "alias": "County",
-            "show": false
-          },
-          {
-            "name": "CNT_CODE",
-            "alias": "CNT_CODE",
-            "show": false,
+            "name": "Urban",
+            "alias": "Urban",
+            "show": true,
             "format": {
               "places": 0,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "NLF_ID",
-            "alias": "NLF_ID",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "NLF_B",
-            "alias": "NLF_B",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "NLF_E",
-            "alias": "NLF_E",
-            "show": false,
-            "format": {
-              "places": 2,
               "digitSeparator": true
             }
           },
           {
             "name": "Priority",
             "alias": "Priority",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": true
-            }
+            "show": true
           },
           {
             "name": "Shape__Length",
             "alias": "Shape__Length",
-            "show": false,
+            "show": true,
             "format": {
               "places": 2,
               "digitSeparator": true
             }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Regional Connectivity Priorities",
+      "id": "BSTRESSv2_RegConnectivityPriorities_2260_0",
+      "layer": {
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESSv2_RegConnectivityPriorities/MapServer/0",
+        "fields": [
+          {
+            "show": false,
+            "name": "LINK",
+            "alias": "Link"
           },
           {
-            "name": "NOTES",
-            "alias": "Notes",
-            "show": true
+            "show": true,
+            "name": "TOTAL",
+            "alias": "Total"
+          },
+          {
+            "show": true,
+            "name": "LINKLTS",
+            "alias": "Link LTS"
+          },
+          {
+            "show": true,
+            "name": "NUMLANES",
+            "alias": "Number of Lanes"
+          },
+          {
+            "show": true,
+            "name": "BIKEFACILI",
+            "alias": "Bicycle Facility"
+          },
+          {
+            "show": true,
+            "name": "SPEED",
+            "alias": "Speed"
+          },
+          {
+            "show": true,
+            "name": "COUNTY",
+            "alias": "County"
+          },
+          {
+            "show": true,
+            "name": "PERCENT",
+            "alias": "Percent"
+          },
+          {
+            "show": true,
+            "name": "CON_ISLAND",
+            "alias": "Connected Islands"
+          },
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": false,
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN"
           }
         ]
       },
       "show": true,
       "showAttachments": false,
-      "sortField": "YEAR",
-      "isDescending": false
+      "sortField": "PERCENT",
+      "isDescending": true
     },
     {
-      "name": "Regional Priorities (Suburban)",
-      "id": "BSTRESS_RegPrioritiesSuburban_5292_0",
+      "name": "Regional Connectivity Analysis Results",
+      "id": "BSTRESSv2_RegConnectitvityResults_7738_0",
       "layer": {
-        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_RegPrioritiesSuburban/MapServer/0",
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESSv2_RegConnectitvityResults/MapServer/0",
         "fields": [
           {
-            "name": "SHAPE",
-            "alias": "Shape",
-            "show": false
-          },
-          {
+            "show": false,
             "name": "LINK",
-            "alias": "Link",
+            "alias": "Link"
+          },
+          {
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "name": "TOTAL",
+            "alias": "Total"
           },
           {
-            "name": "COUNT",
-            "alias": "Total",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "LTS",
-            "alias": "LTS",
-            "show": true
-          },
-          {
             "name": "LINKLTS",
-            "alias": "Link LTS",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
+            "alias": "Link LTS"
           },
           {
-            "name": "CONNECTED_",
-            "alias": "Connected Islands",
-            "show": true
-          },
-          {
-            "name": "NUM_ISLAND",
-            "alias": "Number of Islands Connected",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "SUM_ISLAND",
-            "alias": "Sum Length of Islands",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": true
-            }
-          },
-          {
             "name": "NUMLANES",
-            "alias": "Number of Lanes",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": true
-            }
+            "alias": "Number of Lanes"
           },
           {
+            "show": true,
+            "name": "BIKEFACILI",
+            "alias": "Bicycle Facility"
+          },
+          {
+            "show": true,
             "name": "SPEED",
-            "alias": "Speed",
+            "alias": "Speed"
+          },
+          {
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "BIKE_TEXT",
-            "alias": "Bike Facility",
-            "show": true
-          },
-          {
-            "name": "COUNTY",
-            "alias": "County",
-            "show": true
-          },
-          {
-            "name": "OBJECTID",
-            "alias": "OBJECTID",
-            "show": false
-          },
-          {
-            "name": "SHAPE.LEN",
-            "alias": "SHAPE.LEN",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          }
-        ]
-      },
-      "show": false,
-      "showAttachments": false,
-      "sortField": "SHAPE",
-      "isDescending": false
-    },
-    {
-      "name": "Suburban LTS 3 Connections",
-      "id": "BSTRESS_SuburbanLTS123_9836_0",
-      "layer": {
-        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
-        "fields": [
-          {
-            "name": "SHAPE",
-            "alias": "Shape",
-            "show": false
-          },
-          {
-            "name": "EDGE",
-            "alias": "Link",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "TOTAL",
-            "alias": "Total",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "LTS",
-            "alias": "LTS",
-            "show": true
-          },
-          {
-            "name": "LINKLTS",
-            "alias": "Link LTS",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "NUMLANES",
-            "alias": "Number of Lanes",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "SPEEDTOUSE",
-            "alias": "Speed",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "BIKE_TEXT",
-            "alias": "Bike Facility",
-            "show": true
-          },
-          {
-            "name": "COUNTIES",
-            "alias": "County",
-            "show": true
-          },
-          {
-            "name": "TOP10PERCE",
-            "alias": "Top 10 Percent",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "TOP20PERCE",
-            "alias": "Top 20 Percent",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "TOP30PERCE",
-            "alias": "Top 30 Percent",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "TOP40PERCE",
-            "alias": "Top 40 Percent",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "TOP50PERCE",
-            "alias": "Top 50 Percent",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "OBJECTID",
-            "alias": "OBJECTID",
-            "show": false
-          },
-          {
-            "name": "SHAPE.LEN",
-            "alias": "SHAPE.LEN",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          }
-        ]
-      },
-      "show": false,
-      "showAttachments": false,
-      "sortField": "SHAPE",
-      "isDescending": false
-    },
-    {
-      "name": "Suburban Connectivity Analysis",
-      "id": "BSTRESS_SuburbanShortestPath_5965_0",
-      "layer": {
-        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanShortestPath/MapServer/0",
-        "fields": [
-          {
-            "name": "SHAPE",
-            "alias": "Shape",
-            "show": false
-          },
-          {
-            "name": "EDGE",
-            "alias": "Link",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "TOTAL",
-            "alias": "Total",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "LTS",
-            "alias": "LTS",
-            "show": true
-          },
-          {
-            "name": "LINKLTS",
-            "alias": "Link LTS",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "NUMLANES",
-            "alias": "Number of Lanes",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "SPEEDTOUSE",
-            "alias": "Speed",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "BIKE_TEXT",
-            "alias": "Bicycle Facility",
-            "show": true
-          },
-          {
-            "name": "LENGTH_MI",
-            "alias": "Length (mi)",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          },
-          {
             "name": "LENGTH",
-            "alias": "Length (m)",
-            "show": true
+            "alias": "Length"
           },
           {
-            "name": "OBJECTID",
-            "alias": "OBJECTID",
-            "show": false
-          },
-          {
-            "name": "SHAPE.LEN",
-            "alias": "SHAPE.LEN",
             "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": false,
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN"
           }
         ]
       },
-      "show": false,
+      "show": true,
       "showAttachments": false,
-      "sortField": "SHAPE",
+      "sortField": "TOTAL",
       "isDescending": false
     },
     {
-      "name": "DRAFT Regional Priorities (Philadelphia)",
-      "id": "BSTRESS_RegionalPrioritiesPhila_9609_0",
+      "name": "Priorities for Connections to Trails",
+      "id": "BSTRESSv2_PrioritiesTrailConnections_9505_0",
       "layer": {
-        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_RegionalPrioritiesPhila/MapServer/0",
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESSv2_PrioritiesTrailConnections/MapServer/0",
         "fields": [
           {
-            "name": "SHAPE",
-            "alias": "Shape",
-            "show": false
-          },
-          {
+            "show": false,
             "name": "LINK",
-            "alias": "Link",
+            "alias": "Link"
+          },
+          {
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "name": "TOTAL",
+            "alias": "Total"
           },
           {
-            "name": "COUNT",
-            "alias": "Total",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "LTS",
-            "alias": "LTS",
-            "show": true
-          },
-          {
             "name": "LINKLTS",
-            "alias": "Link LTS",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": false
-            }
+            "alias": "Link LTS"
           },
           {
-            "name": "CONNECTED_",
-            "alias": "Connected Islands",
-            "show": true
-          },
-          {
-            "name": "NUM_ISLAND",
-            "alias": "Number of Islands Connected",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "SUM_ISLAND",
-            "alias": "Sum Length of Islands",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
             "name": "NUMLANES",
-            "alias": "Number of Lanes",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "alias": "Number of Lanes"
           },
           {
+            "show": true,
+            "name": "BIKEFACILI",
+            "alias": "Bicycle Facility"
+          },
+          {
+            "show": true,
             "name": "SPEED",
-            "alias": "Speed",
+            "alias": "Speed"
+          },
+          {
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "BIKE_TEXT",
-            "alias": "Bike Facility",
-            "show": true
-          },
-          {
             "name": "COUNTY",
-            "alias": "County",
-            "show": true
+            "alias": "County"
           },
           {
-            "name": "OBJECTID",
-            "alias": "OBJECTID",
-            "show": false
+            "show": true,
+            "name": "PERCENT",
+            "alias": "Percent"
           },
           {
-            "name": "SHAPE.LEN",
-            "alias": "SHAPE.LEN",
+            "show": true,
+            "name": "CON_ISLAND",
+            "alias": "Connected Islands"
+          },
+          {
             "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": false,
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN"
           }
         ]
       },
-      "show": false,
+      "show": true,
       "showAttachments": false,
-      "sortField": "SHAPE",
+      "sortField": "PERCENT",
       "isDescending": false
     },
     {
-      "name": "DRAFT Philadelphia LTS 3 Connections",
-      "id": "BSTRESS_PhilaLTS3_1534_0",
+      "name": "Priorities for Improving Connections to Transit",
+      "id": "BSTRESSv2_PrioritiesImprovingConnectionsTransit_3483_0",
       "layer": {
-        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_PhilaLTS3/MapServer/0",
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESSv2_PrioritiesImprovingConnectionsTransit/MapServer/0",
         "fields": [
           {
-            "name": "SHAPE",
-            "alias": "Shape",
-            "show": false
+            "show": false,
+            "name": "LINK",
+            "alias": "Link"
           },
           {
-            "name": "EDGE",
-            "alias": "Link",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "TOTAL",
-            "alias": "Total",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "LTS",
-            "alias": "LTS",
-            "show": true
-          },
-          {
             "name": "LINKLTS",
-            "alias": "Link LTS",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": false
-            }
+            "alias": "Link LTS"
           },
           {
+            "show": true,
             "name": "NUMLANES",
-            "alias": "Number of Lanes",
+            "alias": "Number of Lanes"
+          },
+          {
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "name": "BIKEFACILI",
+            "alias": "Bike Facility"
           },
           {
-            "name": "SPEEDTOUSE",
-            "alias": "Speed",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "name": "SPEED",
+            "alias": "Speed"
           },
           {
-            "name": "BIKE_TEXT",
-            "alias": "Bicycle Facility",
-            "show": true
-          },
-          {
-            "name": "COUNTIES",
-            "alias": "County",
-            "show": true
-          },
-          {
-            "name": "TOP10PERCE",
-            "alias": "Top 10 Percent",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "name": "COUNTY",
+            "alias": "County"
           },
           {
-            "name": "TOP20PERCE",
-            "alias": "Top 20 Percent",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "name": "RAIL_PERCE",
+            "alias": "Rail Percent"
           },
           {
-            "name": "TOP30PERCE",
-            "alias": "Top 30 Percent",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "name": "TROLLEY_PE",
+            "alias": "Trolley Percent"
           },
           {
-            "name": "TOP40PERCE",
-            "alias": "Top 40 Percent",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "name": "BUS_PERCEN",
+            "alias": "Bus Percent"
           },
           {
-            "name": "TOP50PERCE",
-            "alias": "Top 50 Percent",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "name": "CON_MODES",
+            "alias": "Number of Connected Modes"
           },
           {
-            "name": "OBJECTID",
-            "alias": "OBJECTID",
-            "show": false
+            "show": true,
+            "name": "CON_ISLAND",
+            "alias": "Connected Islands"
           },
           {
-            "name": "SHAPE.LEN",
-            "alias": "SHAPE.LEN",
             "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": false,
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN"
           }
         ]
       },
-      "show": false,
+      "show": true,
       "showAttachments": false,
-      "sortField": "SHAPE",
+      "sortField": "CON_MODES",
       "isDescending": false
     },
     {
-      "name": "DRAFT Philadelphia Connectivity Analysis",
-      "id": "BSTRESS_PhilaShortestPath_9898_0",
+      "name": "Existing Conditions LTS",
+      "id": "BSTRESSv2_ExistingConditionLTS_6480_0",
       "layer": {
-        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_PhilaShortestPath/MapServer/0",
+        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESSv2_ExistingConditionLTS/MapServer/0",
         "fields": [
           {
-            "name": "SHAPE",
-            "alias": "Shape",
-            "show": false
+            "show": false,
+            "name": "LINK",
+            "alias": "Link"
           },
           {
-            "name": "EDGE",
-            "alias": "Link",
+            "show": false,
+            "name": "FROMNODENO",
+            "alias": "From Node"
+          },
+          {
+            "show": false,
+            "name": "TONODENO",
+            "alias": "To Node"
+          },
+          {
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "name": "NUMLANES",
+            "alias": "Number of Lanes"
           },
           {
-            "name": "TOTAL",
-            "alias": "Total",
             "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
+            "name": "BIKEFACILI",
+            "alias": "Bike Facility"
           },
           {
-            "name": "LTS",
-            "alias": "LTS",
-            "show": true
+            "show": true,
+            "name": "SPEED",
+            "alias": "Speed"
           },
           {
+            "show": true,
             "name": "LINKLTS",
-            "alias": "Link LTS",
+            "alias": "Link LTS"
+          },
+          {
             "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "NUMLANES",
-            "alias": "Number of Lanes",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "SPEEDTOUSE",
-            "alias": "Speed",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "BIKE_TEXT",
-            "alias": "Bicycle Facility",
-            "show": true
-          },
-          {
-            "name": "LENGTH_MI",
-            "alias": "Length (mi)",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "LENGTH",
-            "alias": "Length (m)",
-            "show": true
-          },
-          {
             "name": "OBJECTID",
-            "alias": "OBJECTID",
-            "show": false
+            "alias": "OBJECTID"
           },
           {
-            "name": "SHAPE.LEN",
-            "alias": "SHAPE.LEN",
             "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN"
           }
         ]
       },
-      "show": false,
+      "show": true,
       "showAttachments": false,
-      "sortField": "SHAPE",
-      "isDescending": false
-    },
-    {
-      "name": "LTS 1&2 Islands",
-      "id": "BSTRESS_LTS12Islands_9884_0",
-      "layer": {
-        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_LTS12Islands/MapServer/0",
-        "fields": [
-          {
-            "name": "SHAPE",
-            "alias": "Shape",
-            "show": false
-          },
-          {
-            "name": "MIXID",
-            "alias": "Link",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "COST",
-            "alias": "Cost",
-            "show": true,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "STRONG",
-            "alias": "Island ID",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "OBJECTID",
-            "alias": "OBJECTID",
-            "show": false
-          },
-          {
-            "name": "SHAPE.LEN",
-            "alias": "SHAPE.LEN",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          }
-        ]
-      },
-      "show": false,
-      "showAttachments": false,
-      "sortField": "SHAPE",
-      "isDescending": false
-    },
-    {
-      "name": "Existing Condition LTS",
-      "id": "AssignedLTS_8172_0",
-      "layer": {
-        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/AssignedLTS/MapServer/0",
-        "fields": [
-          {
-            "name": "NUMLANES",
-            "alias": "Total Number of Lanes",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "BIKE_FAC",
-            "alias": "BIKE_FAC",
-            "show": true
-          },
-          {
-            "name": "BIKE_FAC_1",
-            "alias": "Bicycle Facility",
-            "show": false,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "SPEEDTOUSE",
-            "alias": "Effective Speed",
-            "show": true,
-            "format": {
-              "places": 0,
-              "digitSeparator": false
-            }
-          },
-          {
-            "name": "ISONEWAY_2",
-            "alias": "One Way Street",
-            "show": true
-          },
-          {
-            "name": "LTS",
-            "alias": "LTS",
-            "show": true
-          },
-          {
-            "name": "LINKLTS",
-            "alias": "Assigned LTS",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          },
-          {
-            "name": "OBJECTID",
-            "alias": "OBJECTID",
-            "show": false
-          },
-          {
-            "name": "SHAPE.LEN",
-            "alias": "SHAPE.LEN",
-            "show": false,
-            "format": {
-              "places": 2,
-              "digitSeparator": true
-            }
-          }
-        ]
-      },
-      "show": false,
-      "showAttachments": false,
-      "sortField": "NUMLANES",
-      "isDescending": false
-    },
-    {
-      "name": "Facility",
-      "id": "AssignedLTS_8172_1",
-      "layer": {
-        "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/AssignedLTS/MapServer/1"
-      },
-      "show": false,
-      "showAttachments": false,
-      "sortField": "OBJECTID",
+      "sortField": "LINKLTS",
       "isDescending": false
     }
   ],
@@ -1101,7 +1067,7 @@
       1000
     ]
   },
-  "hideExportButton": true,
+  "hideExportButton": false,
   "initiallyExpand": false,
   "filterByMapExtent": true,
   "allowTextSelection": true
